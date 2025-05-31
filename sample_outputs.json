@@ -1,0 +1,122 @@
+{
+  "sample_analysis_1": {
+    "url": "https://help.moengage.com/hc/en-us/articles/229488268-Push-Notifications-Android",
+    "title": "Push Notifications - Android",
+    "analysis_timestamp": "2025-05-31T14:30:00.000Z",
+    "readability": {
+      "flesch_kincaid_grade": 11.8,
+      "gunning_fog_score": 13.4,
+      "assessment": "The content is written at a college level, which may be challenging for non-technical marketers. Technical terminology is prevalent throughout, and some concepts assume prior knowledge of Android development. The writing style is instructional but could benefit from more explanatory context for marketing personas.",
+      "suggestions": [
+        "Define 'FCM' (Firebase Cloud Messaging) when first mentioned - many marketers may not be familiar with this acronym",
+        "Replace 'SDK integration' with 'adding MoEngage tools to your app' for clearer understanding",
+        "Add a brief explanation of what push notifications achieve from a marketing perspective",
+        "Consider adding a glossary section for technical terms",
+        "Break down the 127-word paragraph in the 'Configuration' section into smaller, digestible chunks"
+      ]
+    },
+    "structure": {
+      "heading_count": 12,
+      "paragraph_count": 18,
+      "list_count": 4,
+      "avg_paragraph_length": 67.3,
+      "hierarchy_issues": [
+        "Heading level jumps from H2 to H4 in the 'Advanced Configuration' section - consider adding an H3 level"
+      ],
+      "assessment": "The article follows a logical progression from basic setup to advanced configuration. The heading structure is mostly well-organized, though there's one hierarchy gap. The use of code blocks and lists helps break up dense technical content. Navigation could be improved with a table of contents.",
+      "suggestions": [
+        "Add a table of contents at the beginning for easier navigation",
+        "Consider adding estimated time requirements for each major section",
+        "Include a 'Quick Start' section for experienced developers",
+        "Add cross-references between related sections (e.g., link from basic setup to troubleshooting)",
+        "Consider reorganizing the 'Troubleshooting' section to be more prominent"
+      ]
+    },
+    "completeness": {
+      "word_count": 1247,
+      "code_examples_count": 8,
+      "sections_count": 12,
+      "assessment": "The article provides comprehensive technical implementation details with multiple code examples. However, it lacks context about the marketing benefits and use cases for the features described. Some error scenarios are covered, but more real-world examples would be valuable.",
+      "suggestions": [
+        "Add examples of effective push notification campaigns that marketers can reference",
+        "Include common error messages and their solutions in a dedicated troubleshooting section",
+        "Provide sample notification payloads for different marketing scenarios (promotional, transactional, etc.)",
+        "Add screenshots of the notification setup process in the MoEngage dashboard",
+        "Include performance benchmarks or best practices for notification timing"
+      ]
+    },
+    "style_guidelines": {
+      "assessment": "The content follows technical documentation standards but could be more action-oriented and customer-focused. Some sections use passive voice, and the tone is quite formal. The writing assumes technical expertise and doesn't always guide the user through the 'why' behind each step.",
+      "suggestions": [
+        "Replace passive constructions: 'Notifications can be customized' → 'Customize your notifications by...'",
+        "Add benefit statements after technical steps: explain why each configuration matters",
+        "Use more imperative mood: 'You should configure' → 'Configure the following settings'",
+        "Include success indicators: tell users what they should see after completing each step"
+      ]
+    },
+    "metadata": {
+      "word_count": 1247,
+      "paragraph_count": 18,
+      "heading_count": 12,
+      "code_blocks_count": 8
+    }
+  },
+  "sample_analysis_2": {
+    "url": "https://help.moengage.com/hc/en-us/articles/229399928-Email-Campaigns",
+    "title": "Creating Email Campaigns",
+    "analysis_timestamp": "2025-05-31T14:35:00.000Z",
+    "readability": {
+      "flesch_kincaid_grade": 8.9,
+      "gunning_fog_score": 10.2,
+      "assessment": "This content is much more accessible to marketers compared to technical documentation. The language is clear and focuses on practical marketing tasks. However, some platform-specific terminology could still benefit from additional context or explanation.",
+      "suggestions": [
+        "Define 'segmentation' with a practical example when first introduced",
+        "Explain 'A/B testing' benefits in marketing terms rather than just feature description",
+        "Add context about why personalization improves campaign performance",
+        "Consider adding a brief explanation of email deliverability for newcomers to email marketing"
+      ]
+    },
+    "structure": {
+      "heading_count": 8,
+      "paragraph_count": 14,
+      "list_count": 3,
+      "avg_paragraph_length": 45.2,
+      "hierarchy_issues": [],
+      "assessment": "The article has excellent structure for a marketing-focused audience. The flow from campaign creation to optimization is logical. The use of numbered lists for step-by-step processes is effective. Visual elements would enhance the structure further.",
+      "suggestions": [
+        "Add screenshots for each major step in the campaign creation process",
+        "Consider adding a 'Before You Begin' checklist",
+        "Include a summary or recap section at the end",
+        "Add links to related articles about email best practices"
+      ]
+    },
+    "completeness": {
+      "word_count": 892,
+      "code_examples_count": 0,
+      "sections_count": 8,
+      "assessment": "The article covers the essential steps for creating email campaigns but could benefit from more advanced techniques and real-world examples. The absence of template examples or sample campaigns limits practical application.",
+      "suggestions": [
+        "Add sample email templates for different campaign types (welcome, promotional, newsletter)",
+        "Include example segmentation strategies with use cases",
+        "Provide campaign performance benchmarks or industry standards",
+        "Add examples of effective subject lines and email content",
+        "Include integration examples with other marketing channels"
+      ]
+    },
+    "style_guidelines": {
+      "assessment": "The content is well-suited for marketers with clear, action-oriented language. The tone is professional yet approachable. Most instructions use active voice and imperative mood effectively.",
+      "suggestions": [
+        "Add more outcome-focused language: explain what success looks like after each step",
+        "Include time-saving tips throughout the process",
+        "Consider adding warning callouts for common mistakes",
+        "Use more specific action verbs: 'optimize' instead of 'improve'"
+      ]
+    },
+    "metadata": {
+      "word_count": 892,
+      "paragraph_count": 14,
+      "heading_count": 8,
+      "code_blocks_count": 0
+    }
+  }
+}
