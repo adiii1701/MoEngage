@@ -23,8 +23,8 @@ An intelligent agent that analyzes MoEngage documentation articles and provides 
    - [Style Guidelines Implementation](#style-guidelines-implementation)  
 6. [Assumptions Made](#assumptions-made)  
 7. [Example Outputs](#example-outputs)  
-   - [Example 1: Tutorial Article](#example-1-tutorial-article)  
-   - [Example 2: Reference Documentation](#example-2-reference-documentation)  
+8. [Challenges Faced & Solutions](#challenges-faced--solutions)  
+9. [Future Improvements](#future-improvements)  
 
 ---
 
@@ -220,3 +220,34 @@ The analyzer generates a structured JSON report with the following format:
   }
 }
 ```
+---
+## Challenges Faced & Solutions
+
+### Challenge 1: Dynamic Content Extraction  
+**Problem**: MoEngage documentation may have varying HTML structures across different pages.  
+**Solution**: Implemented multiple fallback selectors and robust parsing logic to handle different page layouts.
+
+### Challenge 2: Balancing Depth vs. Performance  
+**Problem**: Comprehensive analysis requires multiple LLM calls, which can be slow and expensive.  
+**Solution**: Optimized prompt design for efficient token usage and implemented rate limiting for stability.
+
+### Challenge 3: Actionable Suggestion Generation  
+**Problem**: LLM responses can be verbose and generic rather than specific and actionable.  
+**Solution**: Designed focused prompts that request specific improvements and implemented suggestion extraction logic.
+
+### Challenge 4: Readability for Specific Persona  
+**Problem**: Standard readability metrics don't account for the specific "non-technical marketer" persona.  
+**Solution**: Combined algorithmic scores with persona-specific LLM analysis for more relevant insights.
+
+
+
+## Future Improvements
+
+1. **Content Type Detection**: Automatically adjust analysis criteria based on content type (tutorial, reference, overview)  
+2. **Competitive Analysis**: Compare against industry best practices and competitor documentation  
+3. **Visual Element Analysis**: Analyze images, diagrams, and formatting elements  
+4. **Interactive Examples**: Detect and evaluate interactive code examples or demos  
+5. **Multi-language Support**: Extend analysis to documentation in multiple languages  
+6. **Historical Tracking**: Track improvements over time and measure impact  
+7. **Integration Capabilities**: API endpoints for integration with documentation management systems  
+
